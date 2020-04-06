@@ -2,6 +2,7 @@ package com.integration;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
@@ -14,7 +15,9 @@ public class AppTester {
 	@BeforeClass
 	public void testSetUp() {
 		System.setProperty("webdriver.gecko.driver", "geckodriver");
-		driver = new FirefoxDriver();
+		FirefoxOptions firefoxOptions = new FirefoxOptions();
+		firefoxOptions.addArguments("--headless");
+		driver = new FirefoxDriver(firefoxOptions);
 	}
 
 	@Test
