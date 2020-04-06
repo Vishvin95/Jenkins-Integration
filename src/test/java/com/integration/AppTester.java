@@ -24,7 +24,7 @@ public class AppTester {
 	public void verifyGooglePageTittle() {
 		driver.navigate().to(appURL);
 		String getTitle = driver.getTitle();
-		Assert.assertEquals(getTitle, "Homepage");
+		Assert.assertEquals(getTitle, "Home");
 	}
 
 	@AfterClass

@@ -1,6 +1,6 @@
 <html>
 <head>
-	<title>Homepage</title>
+	<title>Home</title>
 </head>
 <body>
 <h2>Hello Vishwesh! Let us try webhook trigger second time for email</h2>
