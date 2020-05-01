@@ -16,7 +16,7 @@
 	<div>
 		<label>First Number :</label> <input type="number" id="num1" /><br />
 		<label>Second Number :</label> <input type="number" id="num2" /><br />
-		<label>Answer :</label> <input type="text" id="result" disabled="disabled" value=""/><br/> 
+		<label>Result :</label> <input type="text" id="result" disabled="disabled" value=""/><br/> 
 	</div>
 	<input type="button" name="Add" value="Add" onclick="addNumbers()"/>
 </body>
