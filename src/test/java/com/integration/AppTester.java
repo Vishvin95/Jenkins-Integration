@@ -24,7 +24,7 @@ public class AppTester {
 	public void verifyGooglePageTittle() {
 		driver.navigate().to(appURL);
 		String getTitle = driver.getTitle();
-		Assert.assertEquals(getTitle, "Home");
+		Assert.assertEquals(getTitle, "Enabling continuous deployment through Jenkins Pipeline");
 	}
 
 	@AfterClass
